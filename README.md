@@ -66,11 +66,12 @@ sim2real/
    python3 orange_ball_tracker.py Or YOLOv8-based:
 
 
+```text
 +------------------------+         +--------------------+
-|   Camera               | ---->   |  Ball Tracker       |
-|  		         |         |  (HSV or YOLOv8)    |
+|         Camera         | ---->   |  Ball Tracker       |
+|                        |         |  (HSV or YOLOv8)    |
 +------------------------+         +--------------------+
-                                            |
+                                            | 
                                             v
 +-----------------------+         +-------------------------+
 | Joint State Observer  | ---->   |   RL Inference (ONNX)   |
@@ -82,6 +83,9 @@ sim2real/
 | PublishJointState     | <----   |   Scaled Actions        |
 | /robotis/set...       |         |   + Torque Control      |
 +-----------------------+         +-------------------------+
+```
+
+---
 
 
 
