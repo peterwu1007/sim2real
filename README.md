@@ -41,14 +41,15 @@ Alternative object detection node:
 
 ##  Project Structure
 
+```
 sim2real/
-├── infer_net.py # Main RL inference and control loop
-├── orange_ball_tracker.py # HSV vision tracking
-├── joint_state_observer.py # ROS joint state subscription
-├── publish_joint_state.py # Joint command publisher
-├── yolo_v8_inference_node.py # Optional YOLOv8 + ArUco tracking node
+├── infer_net.py                  # Main RL inference and control loop
+├── orange_ball_tracker.py        # HSV vision tracking
+├── joint_state_observer.py       # ROS joint state subscription
+├── publish_joint_state.py        # Joint command publisher
+├── yolo_v8_inference_node.py     # Optional YOLOv8 + ArUco tracking node
 ├── README.md
-
+```
 
 ---
 
